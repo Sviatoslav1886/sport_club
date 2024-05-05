@@ -6,6 +6,8 @@ You can view the layout [here](https://www.figma.com/file/QYRANTzaXWu34QrhB3fa0B
 
 ## Or you can see it here:
 [See pdf](https://github.com/Sviatoslav1886/sport_club/blob/main/sport_club_design.pdf)
+
+## 
 <!DOCTYPE html>
 <html>
 <head>

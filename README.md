@@ -6,5 +6,5 @@ Laboratory work. In which you need:
 3. Front-end development of the design layout.
 4. Adaptation of the web page using @media CSS.
 
-## Or you can view design here:
+### Or you can view design here:
 ![See pdf](https://github.com/Sviatoslav1886/sport_club/blob/main/Web-design_sporClub_site.png)

@@ -1,4 +1,4 @@
-#sport_club
+# sport_club
 
 Laboratory work. In which you need:
 1. Create a detailed [structure](https://www.figma.com/board/IbBbyZB9cBmeYJRjCYGulw/Sport_club?node-id=0%3A1&t=3XIoWkUuUq2JrTKL-1) of the website.

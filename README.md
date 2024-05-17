@@ -1,8 +1,10 @@
-# sport_club
-Laboratory work. In which you had to build a website from a pre-made layout in Figma.
-## Layout of the user interface
+#sport_club
 
-You can view the layout [here](https://www.figma.com/file/QYRANTzaXWu34QrhB3fa0B/sport_club_design?type=design&node-id=0%3A1&mode=design&t=1wBrX5kbaUndBKi5-1).
+Laboratory work. In which you need:
+1. Create a detailed [structure](https://www.figma.com/board/IbBbyZB9cBmeYJRjCYGulw/Sport_club?node-id=0%3A1&t=3XIoWkUuUq2JrTKL-1) of the website.
+2. Creating a [design](https://www.figma.com/design/QYRANTzaXWu34QrhB3fa0B/sport_club_design?node-id=0%3A1&t=lgYXntlveCkKKcri-1) layout.
+3. Front-end development of the design layout.
+4. Adaptation of the web page using @media CSS.
 
-## Or you can see it here:
+## Or you can view design here:
 ![See pdf](https://github.com/Sviatoslav1886/sport_club/blob/main/Web-design_sporClub_site.png)

@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Noto Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="webdesignspor-clubsite-container">
+        <div class="webdesignspor-clubsite-webdesignspor-clubsite">
+          <div class="webdesignspor-clubsite-footer">
+            <div class="webdesignspor-clubsite-group27">
+              <div class="webdesignspor-clubsite-ourdepartment">
+                <span class="webdesignspor-clubsite-text">
+                  <span>Наші відділення</span>
+                </span>
+                <div class="webdesignspor-clubsite-frame16">
+                  <span class="webdesignspor-clubsite-text002">
+                    <span>Львів</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text004">
+                    <span>Тернопіль</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text006">
+                    <span>Київ</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text008">
+                    <span>Одеса</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text010">
+                    <span>Запоріжжя</span>
+                  </span>
+                </div>
+              </div>
+              <div class="webdesignspor-clubsite-abonement">
+                <span class="webdesignspor-clubsite-text012">
+                  <span>Абонементи</span>
+                </span>
+                <div class="webdesignspor-clubsite-frame17">
+                  <span class="webdesignspor-clubsite-text014">
+                    <span>Спосіб життя</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text016">
+                    <span>365 днів</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text018">
+                    <span>3 денний пропуск</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text020">
+                    <span>30 відвідувань</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text022">
+                    <span>Ранковий</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text024">
+                    <span>Парний</span>
+                  </span>
+                </div>
+              </div>
+              <div class="webdesignspor-clubsite-questions">
+                <span class="webdesignspor-clubsite-text026">
+                  <span>Запитання</span>
+                </span>
+                <div class="webdesignspor-clubsite-group18">
+                  <span class="webdesignspor-clubsite-text028">
+                    <span>Правила в клубі</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text030">
+                    <span>Запитання/</span>
+                    <br />
+                    <span>відповіді</span>
+                  </span>
+                </div>
+              </div>
+              <div class="webdesignspor-clubsite-app">
+                <span class="webdesignspor-clubsite-text034">
+                  <span>Додаток</span>
+                </span>
+                <div class="webdesignspor-clubsite-group20">
+                  <span class="webdesignspor-clubsite-text036">
+                    <span>Для Android</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text038">
+                    <span>Для Iphone</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text040">
+                    <span>Для Desktop</span>
+                  </span>
+                </div>
+              </div>
+              <div class="webdesignspor-clubsite-container1">
+                <div class="webdesignspor-clubsite-group21">
+                  <span class="webdesignspor-clubsite-text042">
+                    <span>+380502881845</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text044">
+                    <span>Instagram</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text046">
+                    <span>Telegram</span>
+                    <br />
+                    <span>(служба підтримки)</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text050">
+                    unstoppable_strength@gmail.com
+                  </span>
+                </div>
+                <div class="webdesignspor-clubsite-contacts"></div>
+                <span class="webdesignspor-clubsite-text051">
+                  <span>Контакти</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="webdesignspor-clubsite-fourthscreen">
+            <img
+              alt="back1245"
+              src="public/back1245-llfm.svg"
+              class="webdesignspor-clubsite-back"
+            />
+            <img
+              alt="app21243"
+              src="public/app21243-nwu2-1200w.png"
+              class="webdesignspor-clubsite-app2"
+            />
+            <span class="webdesignspor-clubsite-text053">
+              <span>Спортивний зал!</span>
+              <br />
+              <span>В телефоні!!!</span>
+            </span>
+          </div>
+          <div class="webdesignspor-clubsite-thirdscreen">
+            <div class="webdesignspor-clubsite-thirdscreen1">
+              <span class="webdesignspor-clubsite-text057">
+                <span>Де нас знайти?</span>
+              </span>
+              <div class="webdesignspor-clubsite-group14">
+                <div class="webdesignspor-clubsite-photo1">
+                  <img
+                    alt="foto1wb1119"
+                    src="public/foto1wb1119-r8y-500h.png"
+                    class="webdesignspor-clubsite-foto1wb1"
+                  />
+                  <span class="webdesignspor-clubsite-text059">
+                    <span>вулиця Олександра Кониського, 9</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text061">
+                    <span>Львів</span>
+                  </span>
+                </div>
+                <div class="webdesignspor-clubsite-photo2">
+                  <img
+                    alt="foto2wb11110"
+                    src="public/foto2wb11110-c6eo-400h.png"
+                    class="webdesignspor-clubsite-foto2wb1"
+                  />
+                  <span class="webdesignspor-clubsite-text063">
+                    <span>Київ</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text065">
+                    <span>вул. Данила Щербаківського, 45а</span>
+                  </span>
+                </div>
+                <div class="webdesignspor-clubsite-photo3">
+                  <img
+                    alt="foto3wb11213"
+                    src="public/foto3wb11213-8967-400h.png"
+                    class="webdesignspor-clubsite-foto3wb1"
+                  />
+                  <span class="webdesignspor-clubsite-text067">
+                    <span>Одеса</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text069">
+                    <span>вул. Армійська, 18</span>
+                  </span>
+                </div>
+                <div class="webdesignspor-clubsite-photo4">
+                  <img
+                    alt="foto4wb11218"
+                    src="public/foto4wb11218-itpp-500w.png"
+                    class="webdesignspor-clubsite-foto4wb1"
+                  />
+                  <span class="webdesignspor-clubsite-text071">
+                    <span>Т</span>
+                    <br />
+                    <span>е</span>
+                    <br />
+                    <span>р</span>
+                    <br />
+                    <span>н</span>
+                    <br />
+                    <span>о</span>
+                    <br />
+                    <span>п</span>
+                    <br />
+                    <span>і</span>
+                    <br />
+                    <span>л</span>
+                    <br />
+                    <span>ь</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text089">
+                    <span>вул. Гетьмана Пилипа Орлика, 5</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="webdesignspor-clubsite-secondscreen">
+            <span class="webdesignspor-clubsite-text091">
+              АБОНЕМЕНТИ ТРЕНАЖЕРНИЙ ЗАЛ
+            </span>
+            <div class="webdesignspor-clubsite-abonnemens">
+              <div class="webdesignspor-clubsite-abonnement1">
+                <div class="webdesignspor-clubsite-group3">
+                  <span class="webdesignspor-clubsite-text092">
+                    <span>Спосіб життя</span>
+                  </span>
+                </div>
+                <div class="webdesignspor-clubsite-group13">
+                  <span class="webdesignspor-clubsite-text094">
+                    <span>Доступ до залу 24/7, низька щомісячна ціна</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text096">
+                    <span>16$</span>
+                  </span>
+                </div>
+                <div class="webdesignspor-clubsite-group25">
+                  <span class="webdesignspor-clubsite-text098">
+                    <span>Приєднатись</span>
+                  </span>
+                </div>
+              </div>
+              <div class="webdesignspor-clubsite-abonnement2">
+                <div class="webdesignspor-clubsite-group4">
+                  <span class="webdesignspor-clubsite-text100">
+                    <span>365 днів</span>
+                  </span>
+                </div>
+                <div class="webdesignspor-clubsite-group12">
+                  <span class="webdesignspor-clubsite-text102">
+                    <span>Доступ до залу 24/7, найнижча ціна</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text104">
+                    <span>199$</span>
+                  </span>
+                </div>
+                <div class="webdesignspor-clubsite-group24">
+                  <span class="webdesignspor-clubsite-text106">
+                    <span>Приєднатись</span>
+                  </span>
+                </div>
+              </div>
+              <div class="webdesignspor-clubsite-abonnement3">
+                <div class="webdesignspor-clubsite-group5">
+                  <span class="webdesignspor-clubsite-text108">
+                    <span>3 дений пропуск</span>
+                  </span>
+                </div>
+                <div class="webdesignspor-clubsite-group10">
+                  <span class="webdesignspor-clubsite-text110">
+                    <span>Доступ до залу 24/7, три дня на тиждень</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text112">
+                    <span>10$</span>
+                  </span>
+                </div>
+                <div class="webdesignspor-clubsite-group251">
+                  <span class="webdesignspor-clubsite-text114">
+                    <span>Приєднатись</span>
+                  </span>
+                </div>
+              </div>
+              <div class="webdesignspor-clubsite-abonnement4">
+                <div class="webdesignspor-clubsite-group6">
+                  <span class="webdesignspor-clubsite-text116">
+                    <span>30 відвідувань</span>
+                  </span>
+                </div>
+                <div class="webdesignspor-clubsite-group11">
+                  <span class="webdesignspor-clubsite-text118">
+                    <span>Доступ до залу 24/7, а також дійсний 3 місяці</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text120">
+                    <span>20$</span>
+                  </span>
+                </div>
+                <div class="webdesignspor-clubsite-group26">
+                  <span class="webdesignspor-clubsite-text122">
+                    <span>Приєднатись</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="webdesignspor-clubsite-detailinfo">
+              <span class="webdesignspor-clubsite-text124">
+                <span>Детальна інформація</span>
+              </span>
+              <img
+                alt="Line1850"
+                src="public/line1850-8hp3.svg"
+                class="webdesignspor-clubsite-line1"
+              />
+            </div>
+          </div>
+          <div class="webdesignspor-clubsite-firstscreen">
+            <div class="webdesignspor-clubsite-group28">
+              <span class="webdesignspor-clubsite-text126">
+                <span>Види спорту</span>
+              </span>
+              <div class="webdesignspor-clubsite-cards">
+                <div class="webdesignspor-clubsite-dance">
+                  <img
+                    alt="dance11855"
+                    src="public/dance11855-t988-200w.png"
+                    class="webdesignspor-clubsite-dance1"
+                  />
+                  <div class="webdesignspor-clubsite-group22">
+                    <span class="webdesignspor-clubsite-text128">
+                      <span>Танці</span>
+                    </span>
+                  </div>
+                  <div class="webdesignspor-clubsite-group241">
+                    <span class="webdesignspor-clubsite-text130">
+                      <span>Записатись</span>
+                    </span>
+                  </div>
+                  <span class="webdesignspor-clubsite-text132">
+                    <span>Професійні танці,</span>
+                    <br />
+                    <span>3 заняття на тиждень</span>
+                  </span>
+                </div>
+                <div class="webdesignspor-clubsite-fly">
+                  <div class="webdesignspor-clubsite-group261">
+                    <span class="webdesignspor-clubsite-text136">
+                      <span>Записатись</span>
+                    </span>
+                  </div>
+                  <div class="webdesignspor-clubsite-group252">
+                    <span class="webdesignspor-clubsite-text138">
+                      <span>Флай стречинг</span>
+                    </span>
+                  </div>
+                  <img
+                    alt="wellness11876"
+                    src="public/wellness11876-myg8-200w.png"
+                    class="webdesignspor-clubsite-wellness1"
+                  />
+                  <span class="webdesignspor-clubsite-text140">
+                    <span>Енергійних рухи,</span>
+                    <br />
+                    <span>глибоке розтягнення для гнучкості та здоров'я!</span>
+                  </span>
+                </div>
+                <div class="webdesignspor-clubsite-boxing">
+                  <div class="webdesignspor-clubsite-group2201">
+                    <span class="webdesignspor-clubsite-text144">
+                      <span>Бокс</span>
+                    </span>
+                  </div>
+                  <div class="webdesignspor-clubsite-group23">
+                    <span class="webdesignspor-clubsite-text146">
+                      <span>Записатись</span>
+                    </span>
+                  </div>
+                  <img
+                    alt="boxing11888"
+                    src="public/boxing11888-qo3g-200w.png"
+                    class="webdesignspor-clubsite-boxing1"
+                  />
+                  <span class="webdesignspor-clubsite-text148">
+                    <span>Сила</span>
+                    <br />
+                    <span>Техніка</span>
+                    <br />
+                    <span>Впевненість</span>
+                  </span>
+                </div>
+                <div class="webdesignspor-clubsite-karate">
+                  <div class="webdesignspor-clubsite-group2202">
+                    <span class="webdesignspor-clubsite-text154">
+                      <span>Карате</span>
+                    </span>
+                  </div>
+                  <img
+                    alt="judo11810"
+                    src="public/judo11810-fbsn-200w.png"
+                    class="webdesignspor-clubsite-judo1"
+                  />
+                  <div class="webdesignspor-clubsite-group242">
+                    <span class="webdesignspor-clubsite-text156">
+                      <span>Записатись</span>
+                    </span>
+                  </div>
+                  <span class="webdesignspor-clubsite-text158">
+                    <span>Дисципліна</span>
+                    <br />
+                    <span>Самовдосконалення</span>
+                    <br />
+                    <span>Майстерність</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="webdesignspor-clubsite-mainscreen">
+            <div class="webdesignspor-clubsite-group29">
+              <img
+                alt="backfoto294"
+                src="public/backfoto294-fffl-800h.png"
+                class="webdesignspor-clubsite-backfoto"
+              />
+              <div class="webdesignspor-clubsite-header">
+                <div class="webdesignspor-clubsite-logo">
+                  <span class="webdesignspor-clubsite-text164">
+                    Unstoppable&nbsp; Strength
+                  </span>
+                  <img
+                    alt="logo1810"
+                    src="public/logo1810-yxl-200w.png"
+                    class="webdesignspor-clubsite-logo1"
+                  />
+                </div>
+                <div class="webdesignspor-clubsite-group2">
+                  <span class="webdesignspor-clubsite-text165">
+                    <span>Види спорту</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text167">
+                    <span>Наші фото</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text169">
+                    <span>Відділення</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text171">
+                    <span>Тренери</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text173">
+                    <span>Приєднатись до нас</span>
+                  </span>
+                  <span class="webdesignspor-clubsite-text175">
+                    <span>Ввійти</span>
+                  </span>
+                </div>
+              </div>
+              <div class="webdesignspor-clubsite-maintext">
+                <span class="webdesignspor-clubsite-text177">16$ в місяць</span>
+                <span class="webdesignspor-clubsite-text178">24/7</span>
+                <span class="webdesignspor-clubsite-text179">
+                  <span class="webdesignspor-clubsite-text180">Для</span>
+                  <span>всіх охочих</span>
+                </span>
+              </div>
+              <button class="webdesignspor-clubsite-buttonforenroll">
+                <span class="webdesignspor-clubsite-text182">
+                  Приєднатись зараз
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="webdesignspor-clubsite-fifthscreen">
+            <div class="webdesignspor-clubsite-frame27">
+              <span class="webdesignspor-clubsite-text183">
+                <span>Декілька фактів про нас!</span>
+              </span>
+            </div>
+            <div class="webdesignspor-clubsite-facts">
+              <div class="webdesignspor-clubsite-fact1">
+                <div class="webdesignspor-clubsite-group2203">
+                  <img
+                    alt="Rectangle53176"
+                    src="public/rectangle53176-787k-200h.png"
+                    class="webdesignspor-clubsite-rectangle5"
+                  />
+                  <span class="webdesignspor-clubsite-text185">
+                    <span>Факт 1</span>
+                  </span>
+                </div>
+                <span class="webdesignspor-clubsite-text187">
+                  <span>Сучасні</span>
+                  <br />
+                  <span>тренери</span>
+                </span>
+                <img
+                  alt="coach13182"
+                  src="public/coach13182-hkhh-200h.png"
+                  class="webdesignspor-clubsite-coach1"
+                />
+              </div>
+              <div class="webdesignspor-clubsite-fact2">
+                <div class="webdesignspor-clubsite-group2204">
+                  <img
+                    alt="Rectangle53186"
+                    src="public/rectangle53186-zw9o-200h.png"
+                    class="webdesignspor-clubsite-rectangle51"
+                  />
+                  <span class="webdesignspor-clubsite-text191">
+                    <span>Факт 2</span>
+                  </span>
+                </div>
+                <span class="webdesignspor-clubsite-text193">
+                  <span>Працюємо</span>
+                  <br />
+                  <span>24/7,</span>
+                  <br />
+                  <span>без вихідних</span>
+                </span>
+                <span class="webdesignspor-clubsite-text199">
+                  <span>Працюємо</span>
+                  <br />
+                  <span>24/7,</span>
+                  <br />
+                  <span>без вихідних</span>
+                </span>
+                <img
+                  alt="IMAGE24hours13191"
+                  src="public/image24hours13191-0yrj-200h.png"
+                  class="webdesignspor-clubsite-image24hours1"
+                />
+              </div>
+              <div class="webdesignspor-clubsite-fact3">
+                <div class="webdesignspor-clubsite-group2205">
+                  <img
+                    alt="Rectangle53195"
+                    src="public/rectangle53195-hi3f-200h.png"
+                    class="webdesignspor-clubsite-rectangle52"
+                  />
+                  <span class="webdesignspor-clubsite-text205">
+                    <span>Факт 3</span>
+                  </span>
+                </div>
+                <span class="webdesignspor-clubsite-text207">
+                  <span>Технічна підтримка 24/7,</span>
+                  <br />
+                  <span>без вихідних</span>
+                </span>
+                <img
+                  alt="web13110"
+                  src="public/web13110-jt5-200h.png"
+                  class="webdesignspor-clubsite-web1"
+                />
+              </div>
+              <div class="webdesignspor-clubsite-fact4">
+                <div class="webdesignspor-clubsite-group2206">
+                  <img
+                    alt="Rectangle53110"
+                    src="public/rectangle53110-ywdm-200h.png"
+                    class="webdesignspor-clubsite-rectangle53"
+                  />
+                  <span class="webdesignspor-clubsite-text211">
+                    <span>Факт 4</span>
+                  </span>
+                </div>
+                <img
+                  alt="membership13110"
+                  src="public/membership13110-ncf-200h.png"
+                  class="webdesignspor-clubsite-membership1"
+                />
+                <span class="webdesignspor-clubsite-text213">
+                  <span>Одне членство на всі клуби</span>
+                </span>
+              </div>
+              <div class="webdesignspor-clubsite-fact5">
+                <div class="webdesignspor-clubsite-group2207">
+                  <img
+                    alt="Rectangle53111"
+                    src="public/rectangle53111-eec-200h.png"
+                    class="webdesignspor-clubsite-rectangle54"
+                  />
+                  <span class="webdesignspor-clubsite-text215">
+                    <span>Факт 5</span>
+                  </span>
+                </div>
+                <span class="webdesignspor-clubsite-text217">
+                  <span>Мобільний доступ</span>
+                </span>
+                <img
+                  alt="smartphone13114"
+                  src="public/smartphone13114-jxtq-200h.png"
+                  class="webdesignspor-clubsite-smartphone1"
+                />
+              </div>
+              <div class="webdesignspor-clubsite-fact6">
+                <img
+                  alt="back3112"
+                  src="public/back3112-9snd-300w.png"
+                  class="webdesignspor-clubsite-back1"
+                />
+                <div class="webdesignspor-clubsite-group2208">
+                  <img
+                    alt="Rectangle53112"
+                    src="public/rectangle53112-je0j-200h.png"
+                    class="webdesignspor-clubsite-rectangle55"
+                  />
+                  <span class="webdesignspor-clubsite-text219">
+                    <span>Факт 6</span>
+                  </span>
+                </div>
+                <img
+                  alt="puzzlepieces13114"
+                  src="public/puzzlepieces13114-bqjc-200h.png"
+                  class="webdesignspor-clubsite-puzzlepieces1"
+                />
+                <span class="webdesignspor-clubsite-text221">
+                  <span>Різноманіт-ність активностей</span>
+                </span>
+              </div>
+              <div class="webdesignspor-clubsite-fact7">
+                <img
+                  alt="back3112"
+                  src="public/back3112-9jv4-300w.png"
+                  class="webdesignspor-clubsite-back2"
+                />
+                <div class="webdesignspor-clubsite-group2209">
+                  <img
+                    alt="Rectangle53113"
+                    src="public/rectangle53113-3fbf-200h.png"
+                    class="webdesignspor-clubsite-rectangle56"
+                  />
+                  <span class="webdesignspor-clubsite-text223">
+                    <span>Факт 7</span>
+                  </span>
+                </div>
+                <img
+                  alt="weights1322"
+                  src="public/weights1322-vpi-200h.png"
+                  class="webdesignspor-clubsite-weights1"
+                />
+                <img
+                  alt="membership13113"
+                  src="public/membership13113-pjvc-200h.png"
+                  class="webdesignspor-clubsite-membership11"
+                />
+                <span class="webdesignspor-clubsite-text225">
+                  <span>Різноманіт-ність обладнання</span>
+                </span>
+              </div>
+              <div class="webdesignspor-clubsite-fact8">
+                <img
+                  alt="back3113"
+                  src="public/back3113-hj2d-300w.png"
+                  class="webdesignspor-clubsite-back3"
+                />
+                <div class="webdesignspor-clubsite-group2210">
+                  <img
+                    alt="Rectangle53113"
+                    src="public/rectangle53113-v45f-200h.png"
+                    class="webdesignspor-clubsite-rectangle57"
+                  />
+                  <span class="webdesignspor-clubsite-text227">
+                    <span>Факт 8</span>
+                  </span>
+                </div>
+                <span class="webdesignspor-clubsite-text229">
+                  <span>Бонусні програми та акції</span>
+                </span>
+                <img
+                  alt="gift1323"
+                  src="public/gift1323-kql-200h.png"
+                  class="webdesignspor-clubsite-gift1"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
